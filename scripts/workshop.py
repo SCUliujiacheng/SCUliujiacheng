@@ -7,8 +7,9 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 OWNER = 'SCUliujiacheng'
-REPOS = [('album-atlas', 'Album Atlas'), ('agent-reliability-lab', 'Agent Reliability Lab'),
-         ('evidence-rag-bench', 'Evidence RAG Bench'), ('paper-rewrite', 'Paper Rewrite')]
+REPOS = [('album-atlas', 'Album Atlas'), ('cutline-lab', 'Cutline'),
+         ('split-warden', 'Split Warden'), ('caption-splice', 'Caption Splice'),
+         ('agent-reliability-lab', 'Agent Reliability Lab'), ('evidence-rag-bench', 'Evidence RAG Bench')]
 end = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else datetime.now(timezone.utc).date()
 start = end - timedelta(days=end.weekday() + 49)
 since = datetime.combine(start, time.min, timezone.utc).isoformat().replace('+00:00','Z')
@@ -25,10 +26,11 @@ def counts(repo):
     return weeks
 
 rows = [(label,counts(repo)) for repo,label in REPOS]
-parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="308" viewBox="0 0 1050 308" role="img" aria-labelledby="title desc">',
-         '<title id="title">Weekly commits in four featured public repositories</title>']
+height = 160 + 37 * len(rows)
+parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="{height}" viewBox="0 0 1050 {height}" role="img" aria-labelledby="title desc">',
+         '<title id="title">Weekly commits in selected public repositories</title>']
 parts.append('<desc id="desc">' + escape(f'From {start} to {end} UTC. ' + '. '.join(label + ': ' + ', '.join(map(str, values)) for label,values in rows)) + '</desc>')
-parts.append('<rect width="1050" height="308" fill="#f4f0e7"/>')
+parts.append(f'<rect width="1050" height="{height}" fill="#f4f0e7"/>')
 def txt(x, y, value, size, color, anchor='start', family='Georgia,serif', extra=''):
     parts.append(f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-family="{family}" text-anchor="{anchor}" {extra}>{escape(str(value))}</text>')
 def rule(y, color):
@@ -51,8 +53,8 @@ for i,(name,values) in enumerate(rows):
             txt(x,y,'·',17,'#929888','middle','monospace')
     txt(990,y,sum(values),17,'#914a37','middle','monospace')
     rule(y+12,'#d9d6ca')
-txt(32,280,'Selected public repositories, default branches.',16,'#4e5e58',extra='font-style="italic"')
-txt(1020,279,'UTC',13,'#596863','end','monospace')
+txt(32,height-28,'Selected public repositories, default branches.',16,'#4e5e58',extra='font-style="italic"')
+txt(1020,height-29,'UTC',13,'#596863','end','monospace')
 parts.append('</svg>')
 (ROOT/'assets'/'workshop-log.svg').write_text('\n'.join(parts),encoding='utf-8')
 print(rows)

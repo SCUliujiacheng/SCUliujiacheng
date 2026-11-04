@@ -12,15 +12,26 @@
 
 ## 近期工坊记录 · Workshop log
 
-![Eight weeks of default-branch commits across Album Atlas, Agent Reliability Lab, Evidence RAG Bench, and Paper Rewrite. Dated columns show weekly activity and the final column shows totals.](./assets/workshop-log.svg)
+![Eight weeks of default-branch activity in six public AI and software projects. Dated columns show weekly commits and the final column shows totals.](./assets/workshop-log.svg)
 
-面板记录下列四个公开仓库默认分支的每周提交次数。最右侧为总数，当前周截至图中标注的 UTC 日期。
+面板记录六个公开仓库默认分支的每周提交次数。最右侧为总数，当前周截至图中标注的 UTC 日期。
 
 ## 作品陈列 · Selected builds
 
 | 作品 | 值得点开看的地方 |
 | :--- | :--- |
 | **[Album Atlas · 相册罗盘](https://github.com/SCUliujiacheng/album-atlas)** | 用同一批照片比较几种整理方式，看看哪些照片需要人来决定。[在线试用](https://sculiujiacheng.github.io/album-atlas/) · [模型实测](https://github.com/SCUliujiacheng/album-atlas/blob/main/docs/model-evaluation.md) |
+| **[Cutline · 阈值工作台](https://github.com/SCUliujiacheng/cutline-lab)** | 当误拦一封正常邮件比漏放一封垃圾邮件更贵时，该把哪些交给人看？可以调成本、查漏判，再把规则带走。[在线试用](https://sculiujiacheng.github.io/cutline-lab/) · [成本对照](https://github.com/SCUliujiacheng/cutline-lab/blob/main/docs/comparison.md) |
+| **[Split Warden · 跨集查重](https://github.com/SCUliujiacheng/split-warden)** | 用本地 CLI 找出训练集和测试集里的相同文本、近似文本与标签冲突，追到具体行号。[查看样例报告](https://sculiujiacheng.github.io/split-warden/) · [真实短信数据实验](https://github.com/SCUliujiacheng/split-warden/blob/main/docs/field-sms.md) |
+| **[Caption Splice · 字幕迁移](https://github.com/SCUliujiacheng/caption-splice)** | 一段对白被剪到片头，还能找到原字幕该去的时间吗？用两条音轨迁移字幕，重复或被剪掉的句子留给剪辑者试听。[试听演示](https://sculiujiacheng.github.io/caption-splice/) · [录音实测](https://github.com/SCUliujiacheng/caption-splice/blob/main/docs/field-audio.md) |
+
+<details>
+<summary>其他 AI 工具与可复现实验 · More builds</summary>
+
+| 作品 | 值得点开看的地方 |
+| :--- | :--- |
 | **[Agent Reliability Lab](https://github.com/SCUliujiacheng/agent-reliability-lab)** | 在六个固定场景里重放超时、限流和审批中断，观察两种策略如何恢复。[实验结果](https://github.com/SCUliujiacheng/agent-reliability-lab/blob/main/docs/benchmark-results.md) · [中文](https://github.com/SCUliujiacheng/agent-reliability-lab-zh) |
 | **[Evidence RAG Bench](https://github.com/SCUliujiacheng/evidence-rag-bench)** | 有引用也可能答非所问。在中英文语料上对照排名、原文证据和拒答结果。[检索对照](https://github.com/SCUliujiacheng/evidence-rag-bench/blob/main/docs/benchmark-results.md) · [中文](https://github.com/SCUliujiacheng/evidence-rag-bench-zh) |
 | **[Paper Rewrite · 改稿台](https://github.com/SCUliujiacheng/paper-rewrite)** | 逐段对照本地改写稿，找出被改掉的数字、单位和引用。[评估记录](https://github.com/SCUliujiacheng/paper-rewrite/blob/main/docs/evaluation.md) · [中文](https://github.com/SCUliujiacheng/paper-rewrite-zh) |
+
+</details>

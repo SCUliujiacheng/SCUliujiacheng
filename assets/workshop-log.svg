@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="308" viewBox="0 0 1050 308" role="img" aria-labelledby="title desc">
-<title id="title">Weekly commits in four featured public repositories</title>
-<desc id="desc">From 2026-09-14 to 2026-11-04 UTC. Album Atlas: 0, 0, 0, 0, 0, 0, 0, 2. Agent Reliability Lab: 0, 0, 0, 1, 6, 0, 0, 0. Evidence RAG Bench: 0, 0, 0, 1, 6, 0, 0, 0. Paper Rewrite: 0, 0, 0, 0, 9, 0, 0, 0</desc>
-<rect width="1050" height="308" fill="#f4f0e7"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="382" viewBox="0 0 1050 382" role="img" aria-labelledby="title desc">
+<title id="title">Weekly commits in selected public repositories</title>
+<desc id="desc">From 2026-09-14 to 2026-11-04 UTC. Album Atlas: 0, 0, 0, 0, 0, 0, 0, 3. Cutline: 0, 0, 0, 0, 0, 0, 0, 2. Split Warden: 0, 0, 0, 0, 0, 0, 0, 1. Caption Splice: 0, 0, 0, 0, 0, 0, 0, 1. Agent Reliability Lab: 0, 0, 0, 1, 6, 0, 0, 0. Evidence RAG Bench: 0, 0, 0, 1, 6, 0, 0, 0</desc>
+<rect width="1050" height="382" fill="#f4f0e7"/>
 <text x="30" y="47" fill="#293739" font-size="32" font-family="Georgia,serif" text-anchor="start" font-style="italic">Carnet d’atelier</text>
 <text x="1020" y="43" fill="#455956" font-size="15" font-family="monospace" text-anchor="end" >WEEKLY COMMITS   /   04 NOV 2026</text>
 <path d="M30 62H1020" stroke="#767f75"/>
@@ -23,42 +23,64 @@
 <text x="664" y="121" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="745" y="121" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="826" y="121" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="907" y="121" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">2</text>
-<text x="990" y="121" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >2</text>
+<text x="907" y="121" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">3</text>
+<text x="990" y="121" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >3</text>
 <path d="M30 133H1020" stroke="#d9d6ca"/>
-<text x="32" y="158" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Agent Reliability Lab</text>
+<text x="32" y="158" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Cutline</text>
 <text x="340" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="421" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="502" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="583" y="158" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
-<text x="664" y="158" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">6</text>
+<text x="583" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="664" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="745" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="826" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="907" y="158" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="990" y="158" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >7</text>
+<text x="907" y="158" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">2</text>
+<text x="990" y="158" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >2</text>
 <path d="M30 170H1020" stroke="#d9d6ca"/>
-<text x="32" y="195" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Evidence RAG Bench</text>
+<text x="32" y="195" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Split Warden</text>
 <text x="340" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="421" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="502" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="583" y="195" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
-<text x="664" y="195" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">6</text>
+<text x="583" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="664" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="745" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="826" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="907" y="195" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="990" y="195" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >7</text>
+<text x="907" y="195" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
+<text x="990" y="195" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >1</text>
 <path d="M30 207H1020" stroke="#d9d6ca"/>
-<text x="32" y="232" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Paper Rewrite</text>
+<text x="32" y="232" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Caption Splice</text>
 <text x="340" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="421" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="502" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="583" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="664" y="232" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">9</text>
+<text x="664" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="745" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
 <text x="826" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="907" y="232" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
-<text x="990" y="232" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >9</text>
+<text x="907" y="232" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
+<text x="990" y="232" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >1</text>
 <path d="M30 244H1020" stroke="#d9d6ca"/>
-<text x="32" y="280" fill="#4e5e58" font-size="16" font-family="Georgia,serif" text-anchor="start" font-style="italic">Selected public repositories, default branches.</text>
-<text x="1020" y="279" fill="#596863" font-size="13" font-family="monospace" text-anchor="end" >UTC</text>
+<text x="32" y="269" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Agent Reliability Lab</text>
+<text x="340" y="269" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="421" y="269" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="502" y="269" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="583" y="269" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
+<text x="664" y="269" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">6</text>
+<text x="745" y="269" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="826" y="269" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="907" y="269" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="990" y="269" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >7</text>
+<path d="M30 281H1020" stroke="#d9d6ca"/>
+<text x="32" y="306" fill="#273b40" font-size="19" font-family="Georgia,serif" text-anchor="start" >Evidence RAG Bench</text>
+<text x="340" y="306" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="421" y="306" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="502" y="306" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="583" y="306" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">1</text>
+<text x="664" y="306" fill="#294c56" font-size="17" font-family="monospace" text-anchor="middle" font-weight="bold">6</text>
+<text x="745" y="306" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="826" y="306" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="907" y="306" fill="#929888" font-size="17" font-family="monospace" text-anchor="middle" >·</text>
+<text x="990" y="306" fill="#914a37" font-size="17" font-family="monospace" text-anchor="middle" >7</text>
+<path d="M30 318H1020" stroke="#d9d6ca"/>
+<text x="32" y="354" fill="#4e5e58" font-size="16" font-family="Georgia,serif" text-anchor="start" font-style="italic">Selected public repositories, default branches.</text>
+<text x="1020" y="353" fill="#596863" font-size="13" font-family="monospace" text-anchor="end" >UTC</text>
 </svg>
