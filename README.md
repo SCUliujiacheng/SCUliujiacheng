@@ -8,7 +8,7 @@
 
 - **正在做** · [相册罗盘 Album Atlas](https://github.com/SCUliujiacheng/album-atlas)。给它几张相册样片，它会在浏览器里给新照片找位置。[打开工作台 ↗](https://sculiujiacheng.github.io/album-atlas/)
 - **喜欢拆解的问题** · 检索到的段落能回答问题吗？工具调用超时后，重试会做两次同一件事吗？我把这些问题做成了能复跑的实验。
-- **English** · I build local-first AI tools and test where their predictions break. I’m looking for an applied AI or machine learning internship.
+- **English** · I build local-first AI tools and test where their predictions break. I’m looking for an applied AI or machine learning internship. [Download the bilingual workbench](https://github.com/SCUliujiacheng/cutline-lab/releases/download/v1.1.0/Cutline-1.1.0.html)
 
 ## 近期工坊记录 · Workshop log
 
@@ -21,7 +21,7 @@
 | 作品 | 值得点开看的地方 |
 | :--- | :--- |
 | **[Album Atlas · 相册罗盘](https://github.com/SCUliujiacheng/album-atlas)** | 用同一批照片比较几种整理方式，看看哪些照片需要人来决定。[在线试用](https://sculiujiacheng.github.io/album-atlas/) · [模型实测](https://github.com/SCUliujiacheng/album-atlas/blob/main/docs/model-evaluation.md) |
-| **[Cutline · 阈值工作台](https://github.com/SCUliujiacheng/cutline-lab)** | 当误拦一封正常邮件比漏放一封垃圾邮件更贵时，该把哪些交给人看？可以调成本、查漏判，再把规则带走。[在线试用](https://sculiujiacheng.github.io/cutline-lab/) · [成本对照](https://github.com/SCUliujiacheng/cutline-lab/blob/main/docs/comparison.md) |
+| **[Cutline · 阈值工作台](https://github.com/SCUliujiacheng/cutline-lab)** | 当误拦一封正常邮件比漏放一封垃圾邮件更贵时，该把哪些交给人看？可以调成本、查漏判，再把规则带走。[在线试用](https://sculiujiacheng.github.io/cutline-lab/) · [下载离线版](https://github.com/SCUliujiacheng/cutline-lab/releases/tag/v1.1.0) · [成本对照](https://github.com/SCUliujiacheng/cutline-lab/blob/main/docs/comparison.md) |
 | **[Split Warden · 跨集查重](https://github.com/SCUliujiacheng/split-warden)** | 用本地 CLI 找出训练集和测试集里的相同文本、近似文本与标签冲突，追到具体行号。[查看样例报告](https://sculiujiacheng.github.io/split-warden/) · [真实短信数据实验](https://github.com/SCUliujiacheng/split-warden/blob/main/docs/field-sms.md) |
 | **[Caption Splice · 字幕迁移](https://github.com/SCUliujiacheng/caption-splice)** | 一段对白被剪到片头，还能找到原字幕该去的时间吗？用两条音轨迁移字幕，重复或被剪掉的句子留给剪辑者试听。[试听演示](https://sculiujiacheng.github.io/caption-splice/) · [录音实测](https://github.com/SCUliujiacheng/caption-splice/blob/main/docs/field-audio.md) |
 
